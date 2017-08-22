@@ -16,7 +16,7 @@ import java.io.File;
  */
 public class Teste
 {
-    
+    //teste
     public static void main(String[] args) throws Exception
     {
         GerenciadorPlugins gerenciadorPlugins = getInstance();
