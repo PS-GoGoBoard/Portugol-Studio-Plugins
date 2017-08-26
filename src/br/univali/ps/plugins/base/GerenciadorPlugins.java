@@ -238,10 +238,8 @@ public final class GerenciadorPlugins
                 {
                     Plugin plugin = classePlugin.newInstance();
                     plugin.setMetaDados(metaDadosPlugins.obter(classePlugin));
-                    plugin.inicializar(utilizador);
-
                     utilizador.instalarPlugin(plugin);
-
+                    plugin.inicializar(utilizador);
                     mapaUtilizadores.get(utilizador).add(plugin);
                 }
             }
