@@ -17,7 +17,7 @@ public interface UtilizadorPlugins
     
     public String obterCodigoFonteUsuario();
     
-    public ASAPrograma obterASA();
+    public ASAPrograma obterArvoreSintaticaAbstrata();
     
     public void destacarTrechoCodigoFonte(int linha, int coluna, int tamanho);
     
